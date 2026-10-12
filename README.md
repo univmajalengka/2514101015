@@ -1,123 +1,109 @@
-# Jatigede Explore --- Website Wisata Jatigede
+# Perkenalan dan Fungsi Website Jatigede Explore
 
-**Jatigede Explore** adalah website sederhana untuk memperkenalkan dan
-mempromosikan destinasi wisata di kawasan Jatigede, Sumedang. Website
-ini dibuat menggunakan HTML, CSS, dan JavaScript yang ditulis langsung
-di dalam satu file HTML.
+# Identitas Pembuat
 
-## Fitur Website
+- **Nama Pembuat:** [Masukkan nama lengkap]
+- **NPM:** [Masukkan NPM]
+- **Program Studi:** Informatika
+- **Fakultas:** Teknik
+- **Universitas:** Universitas Majalengka
 
--   **Navigasi:** menu Home, Tentang, Galeri, Video, Paket Wisata, dan
-    Kontak.
--   **Halaman utama (Hero):** menampilkan judul promosi dan tombol untuk
-    menuju bagian paket wisata.
--   **Tentang Jatigede:** berisi pengenalan singkat tentang kawasan
-    wisata Jatigede.
--   **Galeri wisata:** menampilkan foto dan deskripsi beberapa tempat
-    wisata, seperti Tegal Jarong, Green Garden, Bendungan Jatigede,
-    Cisema, Panenjoan, dan Tanjung Duriat.
--   **Video wisata:** menampilkan video YouTube melalui pemutar tertanam
-    dan menyediakan tombol untuk membuka video di YouTube.
--   **Paket wisata:** menampilkan gambar, deskripsi, dan harga paket
-    Arung Jeram Jatigede, Desa Wisata Karedok, serta Wisata Air dan
-    Perahu Waduk Jatigede.
--   **Kontak dan footer:** menampilkan informasi kontak dan navigasi
-    tambahan.
--   **Desain responsif:** tata letak menyesuaikan layar desktop, tablet,
-    dan ponsel.
--   **Menu mobile:** menu navigasi dapat dibuka dan ditutup pada layar
-    kecil.
+## 1. Perkenalan Website
 
-## Teknologi yang Digunakan
+**Jatigede Explore** adalah website informasi dan promosi wisata yang
+dibuat untuk memperkenalkan berbagai destinasi wisata di kawasan
+Jatigede, Sumedang, kepada masyarakat luas. Website ini menyajikan
+informasi dalam bentuk teks, foto, video, serta daftar paket wisata agar
+pengunjung dapat mengenal pilihan wisata yang tersedia sebelum
+merencanakan perjalanan.
 
--   **HTML5** --- menyusun struktur dan konten halaman.
--   **CSS3** --- mengatur warna, tata letak, animasi hover, dan tampilan
-    responsif.
--   **JavaScript** --- mengatur buka/tutup menu navigasi pada perangkat
-    mobile.
--   **Google Fonts (Poppins)** --- menyediakan jenis huruf.
--   **Font Awesome 6.5.0** --- menyediakan ikon.
--   **YouTube** --- menampilkan video wisata.
+Website ini dirancang dengan tampilan yang sederhana, menarik, dan
+responsif sehingga dapat diakses melalui komputer maupun perangkat
+seluler menggunakan browser.
 
-## Struktur Folder
+## 2. Tujuan Website
 
-Pastikan susunan file kurang lebih seperti berikut:
+Tujuan utama Jatigede Explore adalah membantu mempromosikan potensi
+wisata Jatigede melalui media digital. Dengan adanya website ini, calon
+pengunjung dapat memperoleh gambaran awal mengenai tempat wisata,
+aktivitas yang dapat dinikmati, dan pilihan paket wisata yang
+ditampilkan.
 
-``` text
-jatigede-explore/
-├── index.html
-├── README.md
-└── images/
-    ├── background.jpeg
-    ├── togal_jarong.jpeg
-    ├── green_garden.jpg
-    ├── bendungan_jatigede.jpeg
-    ├── cisema.jpg
-    ├── panenjoan.jpg
-    ├── tanjung_duriat.jpeg
-    ├── arung_jeram.jpg
-    ├── wisata_karedok.jpg
-    └── wisata_keliling_waduk.jpg
-```
+## 3. Fungsi Website
 
-Nama file gambar harus sama persis dengan yang ditulis pada atribut
-`src` di HTML. Jika nama atau ekstensi gambar berbeda, sesuaikan jalur
-pada file HTML. Daftar di atas mengikuti nama gambar yang dirujuk oleh
-kode; pastikan semua file gambar tersebut tersedia di folder `images`.
+### a. Memberikan Informasi Wisata
 
-## Cara Menjalankan Website
+Menyediakan pengenalan singkat tentang kawasan Jatigede dan daya tarik
+alamnya.
 
-1.  Simpan kode website dengan nama `index.html`.
-2.  Buat folder bernama `images` di lokasi yang sama dengan
-    `index.html`.
-3.  Masukkan semua gambar yang digunakan ke dalam folder `images`.
-4.  Buka file `index.html` menggunakan browser, misalnya Google Chrome,
-    Microsoft Edge, atau Firefox.
-5.  Pastikan perangkat terhubung ke internet agar Google Fonts, Font
-    Awesome, gambar dari Unsplash, dan video YouTube dapat dimuat.
+### b. Memperkenalkan Destinasi Wisata
 
-Website ini merupakan website statis sehingga tidak memerlukan database,
-server backend, atau proses instalasi khusus untuk dijalankan secara
-lokal.
+Menampilkan galeri foto dan deskripsi beberapa lokasi, seperti Tegal
+Jarong, Green Garden, Bendungan Jatigede, Cisema, Panenjoan, dan Tanjung
+Duriat.
 
-## Bagian yang Bisa Disesuaikan
+### c. Menampilkan Video Wisata
 
--   **Foto:** ubah nilai `src` pada tag `<img>` atau URL gambar latar
-    sesuai foto yang ingin digunakan.
--   **Video:** ganti URL `src` pada elemen `<iframe>` dan URL pada
-    tombol YouTube jika ingin memakai video lain.
--   **Informasi paket:** ubah nama paket, deskripsi, dan harga sesuai
-    informasi terbaru dari pengelola wisata.
--   **Kontak:** ganti nomor telepon, alamat email, dan lokasi dengan
-    informasi kontak yang benar.
--   **Warna dan tata letak:** sesuaikan aturan CSS yang berada di dalam
-    tag `<style>`.
--   **Navigasi mobile:** kode JavaScript di bagian bawah file mengatur
-    penambahan dan penghapusan class `active` pada menu navigasi.
+Menyediakan video YouTube agar pengunjung dapat melihat gambaran suasana
+dan keindahan wisata Jatigede secara visual.
 
-## Catatan
+### d. Memberikan Informasi Paket Wisata
 
--   Harga paket yang ditampilkan merupakan informasi yang tertulis pada
-    contoh website dan perlu dikonfirmasi kembali kepada pengelola
-    wisata sebelum digunakan sebagai informasi resmi.
--   Tombol **Lihat Detail** dan **Hubungi Kami** masih menggunakan
-    `href="#"`, sehingga belum mengarah ke halaman detail atau layanan
-    kontak tertentu. Ganti tautannya sesuai kebutuhan.
--   Video YouTube membutuhkan koneksi internet dan dapat gagal
-    ditampilkan apabila pemilik video membatasi pemutaran melalui situs
-    lain.
--   Pastikan penggunaan gambar memiliki izin atau sesuai dengan
-    ketentuan sumber gambar masing-masing.
+Menampilkan pilihan paket wisata beserta gambar, deskripsi, dan harga
+yang tercantum, termasuk paket arung jeram, Desa Wisata Karedok, serta
+wisata air dan perahu Waduk Jatigede.
 
-## Pengembangan Selanjutnya
+### e. Membantu Perencanaan Perjalanan
 
-Website ini dapat dikembangkan dengan memisahkan CSS ke file `style.css`
-dan JavaScript ke file `script.js`, menambahkan halaman detail
-destinasi, formulir pemesanan paket, integrasi WhatsApp, serta peta
-lokasi wisata.
+Membantu pengunjung membandingkan pilihan destinasi dan paket wisata
+sebagai referensi awal sebelum berkunjung.
+
+### f. Menyediakan Informasi Kontak
+
+Menampilkan informasi kontak yang dapat digunakan sebagai titik awal
+bagi pengunjung yang ingin mencari informasi lebih lanjut. Informasi
+kontak perlu dipastikan benar dan aktif sebelum website dipublikasikan.
+
+## 4. Sasaran Pengguna
+
+Website ini ditujukan untuk: - Masyarakat yang ingin mengenal wisata
+Jatigede. - Wisatawan lokal maupun luar daerah. - Keluarga atau kelompok
+teman yang sedang mencari referensi tempat berlibur. - Pengelola atau
+pihak promosi wisata yang ingin memperkenalkan destinasi melalui media
+digital.
+
+## 5. Manfaat Website
+
+-   Memudahkan calon wisatawan mengenal beberapa destinasi di kawasan
+    Jatigede.
+-   Menampilkan informasi wisata dalam satu halaman website.
+-   Menjadi media promosi digital yang mudah diakses.
+-   Memberikan gambaran awal tentang pilihan paket dan biaya yang
+    tercantum.
+-   Mendukung penyebaran informasi potensi wisata kepada masyarakat.
+
+## 6. Batasan Website Saat Ini
+
+Jatigede Explore merupakan website statis untuk informasi dan promosi.
+Saat ini website belum memiliki sistem pemesanan paket wisata,
+pembayaran online, pengelolaan data melalui database, maupun halaman
+detail yang berfungsi untuk semua tombol. Harga paket dan informasi
+kontak yang ditampilkan sebaiknya dikonfirmasi kembali kepada pihak
+terkait.
+
+## 7. Kesimpulan
+
+Jatigede Explore berfungsi sebagai media informasi dan promosi digital
+yang memperkenalkan destinasi wisata di kawasan Jatigede, Sumedang.
+Melalui galeri foto, video, dan informasi paket wisata, website ini
+membantu calon pengunjung mendapatkan gambaran awal sebelum merencanakan
+perjalanan. Website ini juga masih dapat dikembangkan lebih lanjut,
+misalnya dengan fitur pemesanan, integrasi WhatsApp, peta lokasi, dan
+pembaruan informasi wisata.
 
 ------------------------------------------------------------------------
 
 **Nama proyek:** Jatigede Explore\
-**Jenis proyek:** Website promosi wisata statis\
-**Wilayah:** Jatigede, Sumedang
+**Jenis proyek:** Website informasi dan promosi wisata\
+**Wilayah yang diperkenalkan:** Jatigede, Sumedang\
+**Teknologi utama:** HTML, CSS, dan JavaScript
