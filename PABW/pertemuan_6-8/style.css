@@ -1,0 +1,207 @@
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Segoe UI', Arial, sans-serif;
+    background: linear-gradient(135deg, #667eea, #764ba2);
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+}
+
+.container {
+    width: 100%;
+    max-width: 460px;
+}
+
+.card {
+    background: white;
+    padding: 35px;
+    border-radius: 20px;
+    box-shadow: 0 15px 40px rgba(0, 0, 0, 0.15);
+}
+
+.icon {
+    font-size: 48px;
+    text-align: center;
+    margin-bottom: 15px;
+}
+
+h1 {
+    text-align: center;
+    color: #333;
+    font-size: 27px;
+    margin-bottom: 10px;
+}
+
+.subtitle {
+    text-align: center;
+    color: #888;
+    font-size: 14px;
+    margin-bottom: 30px;
+}
+
+form label {
+    display: block;
+    font-weight: 600;
+    color: #444;
+    margin-bottom: 10px;
+}
+
+input {
+    width: 100%;
+    padding: 15px;
+    border: 2px solid #eee;
+    border-radius: 10px;
+    font-size: 16px;
+    outline: none;
+    transition: 0.3s;
+}
+
+input:focus {
+    border-color: #764ba2;
+}
+
+button {
+    width: 100%;
+    padding: 15px;
+    margin-top: 20px;
+    background: linear-gradient(135deg, #667eea, #764ba2);
+    color: white;
+    border: none;
+    border-radius: 10px;
+    font-size: 16px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+button:hover {
+    opacity: 0.9;
+    transform: translateY(-2px);
+}
+
+.info {
+    margin-top: 30px;
+    padding: 20px;
+    background: #f8f7fc;
+    border-radius: 12px;
+}
+
+.info h3 {
+    color: #444;
+    font-size: 16px;
+    margin-bottom: 15px;
+}
+
+.discount-item {
+    display: flex;
+    justify-content: space-between;
+    padding: 10px 0;
+    color: #666;
+    font-size: 14px;
+    border-bottom: 1px solid #eee;
+}
+
+.discount-item:last-child {
+    border-bottom: none;
+}
+
+.discount-item strong {
+    color: #764ba2;
+}
+
+/* Bagian hasil perhitungan */
+
+.result-box {
+    background: #f8f7fc;
+    border-radius: 12px;
+    padding: 20px;
+    margin-bottom: 25px;
+}
+
+.result-item {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 10px;
+    padding: 13px 0;
+    color: #666;
+    font-size: 14px;
+}
+
+.result-item strong {
+    color: #333;
+    text-align: right;
+}
+
+.result-item .discount {
+    color: #16a36a;
+}
+
+hr {
+    border: none;
+    border-top: 1px dashed #ccc;
+    margin: 15px 0;
+}
+
+.total-payment {
+    text-align: center;
+    padding-top: 10px;
+}
+
+.total-payment span {
+    color: #777;
+    font-size: 14px;
+}
+
+.total-payment h2 {
+    color: #764ba2;
+    font-size: 27px;
+    margin-top: 12px;
+}
+
+.back-button {
+    display: block;
+    text-align: center;
+    text-decoration: none;
+    background: #764ba2;
+    color: white;
+    padding: 14px;
+    border-radius: 10px;
+    font-weight: bold;
+    transition: 0.3s;
+}
+
+.back-button:hover {
+    background: #5d3789;
+}
+
+.footer {
+    text-align: center;
+    color: white;
+    font-size: 13px;
+    margin-top: 20px;
+}
+
+/* Responsive */
+
+@media (max-width: 480px) {
+    .card {
+        padding: 25px 20px;
+    }
+
+    h1 {
+        font-size: 23px;
+    }
+
+    .total-payment h2 {
+        font-size: 23px;
+    }
+}
